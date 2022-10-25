@@ -1,0 +1,117 @@
+@font-face {
+font-family: 'Minipax';
+src: url('fonts/Minipax/Minipax-Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'VG5000';
+src: url('fonts/VG5000/VG5000-Regular_web.woff') format('woff');
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	line-height: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: Minipax;
+	background-color: lightblue;
+	#color: white;
+	color: #5f00b0;
+	margin: 0;
+}
+
+main {
+	width: 100%;
+}
+
+.center-pane {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+    min-height: 73vh;
+	font-size: 20px;
+	font-family: "Times New Roman";
+    /*border: 1px solid white;*/
+}
+
+@media (max-width: 800px) {
+	.center-pane {
+		padding: 15px;
+		padding-bottom: 100px;
+		max-width: 90%;
+	}
+    .page-title {
+		margin-top: 60px;
+	}
+}
+
+.page-title {
+	width:100%;
+	text-align:center;
+	font-size: 36px;
+}
+
+.main-mushroom {
+	width: 400px;
+	margin: auto;
+	margin-top: 75px;
+	display: flex;
+	max-width: 100%;
+}
+
+.writeup {
+	max-width: 600px;
+    margin: auto;
+	font-size: 20px;
+}
+
+.writeup a {
+	#text-decoration: underline;
+	color: #8900ff;
+}
+
+.language-select {
+	margin: auto;
+	margin-top: 40px;
+	width: 200px;
+	text-align: center;
+	color: #5f00b0;
+    margin-bottom: 40px;
+}
+.language-select a {
+	color: #5f00b0;
+}
+.language-options span.language-option {
+	cursor: pointer;
+}
+.language-option.selected {
+	font-style: italic;
+}
+span.divider {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.centered {
+    /*margin-left: 50px;*/
+	padding-bottom: 20px;
+    font-style: italic;
+}
+.contact-links a {
+	color: white;
+	text-decoration: none;
+}
+
+.german {
+	display: none;
+}
+
+
+a {
+	color: #8900ff;
+	*text-decoration: none;
+}

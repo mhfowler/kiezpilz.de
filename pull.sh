@@ -1,0 +1,1 @@
+rsync -avWh -e "ssh -i ~/.ssh/do_rsa2" root@147.182.177.135:/srv/kiezpilz-lichen/ ~/computer/projects/lichen/kp.local/
